@@ -1,0 +1,22 @@
+.app {
+    border: 2px solid black;
+    height: 2071px;
+    width: 100vw;
+}
+
+.nav-bar {
+    
+    
+    height: 127px;
+    width: 100vw;
+    background-color: #6F6AF7;
+}
+
+.content {
+    border: 2px solid black;
+    
+    margin-top: 110px;
+    margin-left: 80px;
+    height: 1695px;
+    width: 1542px;
+}
