@@ -19,4 +19,29 @@
     margin-left: 80px;
     height: 1695px;
     width: 1542px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.section-1 {
+    border: 2px solid black;
+    /* width: 1542px;
+    height: 400px; */
+    background-color: aqua;
+    height: 400px;
+    
+}
+
+.section-2 {
+    border: 2px solid black;
+    background-color: #6F6AF7;
+    height: 150px;
+}
+
+.section-3 {
+    border: 2px solid black;
+    background-color: #483EFF;
+    height: 550px;
 }
