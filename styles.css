@@ -1,16 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Delius+Unicase:wght@400;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+body {
+    margin: 0;
+}
+
 .app {
-    border: 2px solid black;
     height: 2071px;
-    width: 100vw;
+    width: 100%;
 }
 
 .nav-bar {
     
     
     height: 100px;
-    width: 100vw;
+    width: 100%;
     background-color: #6F6AF7;
     display: flex;
     justify-content: space-around;
@@ -34,7 +37,6 @@
 
 .logo {
     color: #FFFFFF;
-    /* font-family: Delius Unicase; */
     font-weight: 700;
     font-size: 60px;
     line-height: 78px;
@@ -66,17 +68,39 @@
     cursor: pointer;
 }
 
-
-.content {
-    border: 2px solid black;
+.card-3 {
     
-    margin-top: 110px;
+    height: 261px;
+    width: 88px;
+    position: sticky;
+    float: right;
+    top: 80px;
+    margin-top: -190vh;
+}
+
+.card-3 img {
+    height: 70px;
+    display: block;
+    width: fit-content;
+}
+
+.help {
+    position: fixed;
+    bottom: 20px;
+    right: 80px;
+    cursor: pointer;
+    
+}
+
+
+.content {    
+    margin-top: 10px;
     margin-left: 80px;
     height: 1695px;
-    width: 1542px;
+    width: 1500px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     
 }
 
@@ -92,22 +116,21 @@
 }
 
 .card-1 img{
-    /* width: 350px;
-    height: 400px; */
+    /* width: 450px;
+    height: 500px; */
 }
 
 .card-2 {
     background-color: #E5D8FF;
     width: 900px;
     height: 490px;
-    border: 3px solid black;
     border-radius: 20px;
     box-shadow: #000000;
     
 }
 
 .card-2 p {
-    margin-left: 20px;
+    margin-left: 30px;
     font-family: DM Sans;
     font-weight: 400;
     font-size: 29px;
@@ -115,14 +138,14 @@
 }
 
 .section-2 {
-    border: 2px solid black;
-    height: 150px;
+    height: 130px;
     display: flex;
     justify-content: space-between;
+    margin-top: -50px;
 }
 
 .section-2 div {
-    width: 250px;
+    width: 280px;
     border-radius: 11px;
     display: flex;
     justify-content: center;
@@ -135,31 +158,27 @@
 }
 
 .one {
-    border: 2px solid black;
-    
-    background-color: #929DFF;
+    background: #929DFF;
+}
 
-}
 .two {
-    border: 2px solid black;
-    background-color: #734CF2;
+    background: #734CF2;
 }
+
 .three {
-    border: 2px solid black;
-    background-color: #D288FF;
+    background: #D288FF;
 }
+
 .four {
-    border: 2px solid black;
-    background-color: #000000;
+    background: #000000;
 }
 
 .section-3 {
-    border: 2px solid black;
     background-color: #483EFF;
     height: 700px;
     border-radius: 21px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .card-left {
@@ -172,7 +191,7 @@
     width: 400px;
     height: 133px;
     border-radius: 22px;
-    border: 2px solid black;
+    border-style: solid;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -181,11 +200,13 @@
     font-size: 35px;
     line-height: 62px;
     cursor: pointer;
+    border-color: white;
 }
 
 .left-1 {
     color: #000000;
     background-color: #BCE0F6;
+    box-shadow: 0px 6px 35px rgba(0, 0, 0, 0.39);
 }
 
 .left-2, .left-3 {
@@ -198,4 +219,51 @@
     width: 1004px;
     height: 656px;
     border-radius: 19px;
+    margin-top: 20px;
+    position: relative;
+    
+}
+
+.card-right p {
+    color: #04285A;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 45px;
+    margin-left: 90px;
+    letter-spacing: 0.105em;
+    margin-bottom: 60px;
+
+}
+
+.card-right ul {
+    margin-left: 100px;
+    color: #143565;
+    font-size: 30px;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 28px;
+    list-style: none;
+    letter-spacing: 0.105em;
+    
+}
+
+.card-right li {
+    margin-bottom: 50px;
+}
+
+
+
+.card-right button {
+    margin-left: 70%;
+    margin-top: 2%;
+    background-color: #000000;
+    border-radius: 9px;
+    width: 207px;
+    height: 78px;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
 }
