@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Delius+Unicase:wght@400;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 .app {
     border: 2px solid black;
     height: 2071px;
@@ -7,10 +9,63 @@
 .nav-bar {
     
     
-    height: 127px;
+    height: 100px;
     width: 100vw;
     background-color: #6F6AF7;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
+
+.nav {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    font-family: DM Sans;
+    font-weight: 400;
+    line-height: 47px;
+    color: #FFFFFF;
+    font-size: 36px;
+    align-items: center;
+}
+.nav li {
+    cursor: pointer;
+}
+
+.logo {
+    color: #FFFFFF;
+    /* font-family: Delius Unicase; */
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 78px;
+    font-family: Delius Unicase;
+}
+
+.nav li:nth-child(5){
+    width: 330px;
+    height: 57px;
+    border-radius: 64px;
+    background-color: #FFFFFF;
+}
+
+.nav input {
+    font-size: 22px;
+    line-height: 31px;
+    color: #9F9F9F;
+    margin-left: 15px;
+    position: relative;
+    border: none;
+    
+}
+.search {
+    position: absolute;
+    margin-top: 15px;
+}
+
+.vector-logo {
+    cursor: pointer;
+}
+
 
 .content {
     border: 2px solid black;
@@ -26,22 +81,121 @@
 }
 
 .section-1 {
-    border: 2px solid black;
+    
     /* width: 1542px;
     height: 400px; */
-    background-color: aqua;
-    height: 400px;
+    height: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     
+}
+
+.card-1 img{
+    /* width: 350px;
+    height: 400px; */
+}
+
+.card-2 {
+    background-color: #E5D8FF;
+    width: 900px;
+    height: 490px;
+    border: 3px solid black;
+    border-radius: 20px;
+    box-shadow: #000000;
+    
+}
+
+.card-2 p {
+    margin-left: 20px;
+    font-family: DM Sans;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 51px;
 }
 
 .section-2 {
     border: 2px solid black;
-    background-color: #6F6AF7;
     height: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-2 div {
+    width: 250px;
+    border-radius: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: DM sans;
+    font-weight: 700;
+    font-size: 29px;
+    line-height: 51px;
+    color: #FFFFFF;
+}
+
+.one {
+    border: 2px solid black;
+    
+    background-color: #929DFF;
+
+}
+.two {
+    border: 2px solid black;
+    background-color: #734CF2;
+}
+.three {
+    border: 2px solid black;
+    background-color: #D288FF;
+}
+.four {
+    border: 2px solid black;
+    background-color: #000000;
 }
 
 .section-3 {
     border: 2px solid black;
     background-color: #483EFF;
-    height: 550px;
+    height: 700px;
+    border-radius: 21px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.card-left div{
+    width: 400px;
+    height: 133px;
+    border-radius: 22px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: DM sans;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 62px;
+    cursor: pointer;
+}
+
+.left-1 {
+    color: #000000;
+    background-color: #BCE0F6;
+}
+
+.left-2, .left-3 {
+    border: 5px ;
+    color: #FFFFFF;
+}
+
+.card-right {
+    background-color: #FFFFFF;
+    width: 1004px;
+    height: 656px;
+    border-radius: 19px;
 }
