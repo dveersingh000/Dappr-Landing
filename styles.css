@@ -16,7 +16,7 @@
     
     
     height: 95px;
-    width: 100vw;
+    width: 100%;
     background-color: #6F6AF7;
     display: flex;
     justify-content: space-around;
@@ -76,7 +76,7 @@
     float: right;
     top: 80px;
     margin-top: -180vh;
-    right: 70px;
+    right: 40px;
 }
 
 .card-3 img {
@@ -97,7 +97,7 @@
 .content {    
 
     margin-left: 50px;
-    margin-right: 50px;
+    margin-right: 800px;
     height: 1695px;
     width: 1500px;
     display: flex;
