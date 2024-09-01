@@ -9,7 +9,7 @@
 .app {
     height: 2071px;
     width: 100%;
-    overflow: hidden;
+
 }
 
 .nav-bar {
@@ -98,7 +98,7 @@
 
 .content {    
     margin-top: 10px;
-    margin-left: 80px;
+    margin-left: 10px;
     height: 1695px;
     width: 1500px;
     display: flex;
