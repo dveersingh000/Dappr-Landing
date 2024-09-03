@@ -7,14 +7,14 @@
   }
   
 .app {
-    height: 1700px;
+    height: 1oovh;
     width: 100vw;
 
 }
 
 .nav-bar {
     height: 95px;
-    width: 100%;
+    width: 100vw;
     background-color: #6F6AF7;
     display: flex;
     justify-content: space-around;
@@ -99,7 +99,7 @@
     margin-left: 100px;
     margin-right: 0px;
     height: 1695px;
-    width: 1500px;
+    width: 90%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
